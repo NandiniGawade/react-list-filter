@@ -1,0 +1,20 @@
+[
+    {
+        "id": "city",
+        "align": "left",
+        "minWidth": "100px",
+        "label": "City"
+    },
+    {
+        "id": "admin_name",
+        "align": "left",
+        "minWidth": "100px",
+        "label": "Admin name"
+    },
+    {
+        "id": "population",
+        "align": "left",
+        "minWidth": "100px",
+        "label": "Population"
+    }
+]
