@@ -37,7 +37,8 @@ const CityList: FC = () => {
 
     return (
         <Paper>
-            <ListFilter handleChangeInput={handleChangeInput}/>
+            <ListFilter 
+                handleChangeInput={handleChangeInput}/>
             <TableComponent 
                 data = { filteredrowRenderers } 
                 handleChangeRowsPerPage = { handleChangeRowsPerPage }

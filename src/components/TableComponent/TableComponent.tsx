@@ -69,10 +69,11 @@ const TableComponent: FC<Props> = ({ data, handleChangeRowsPerPage, handleChange
                 })}
             </TableBody>}
           </Table>
-        </TableContainer><TablePagination
+        </TableContainer>
+        <TablePagination
             rowsPerPageOptions={[10, 25, 100]}
             component="div"
-            count={data.length}
+            count={data.length === -1 ? 1 * 10 + 1 : data.length}
             rowsPerPage={rowsPerPage}
             page={page}
             onPageChange={handleChangePage}

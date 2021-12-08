@@ -21,7 +21,7 @@ const Header: FC = () => {
   return (
     <Box component="header" className={classes.root} display="flex" flexDirection="row" alignItems="center">
       <Typography variant="h3" className={classes.title}>
-        Netherlands Cities
+        Netherland Cities
       </Typography>
     </Box>
   );
