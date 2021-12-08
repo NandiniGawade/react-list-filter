@@ -1,7 +1,6 @@
 # List filter
 
-This application displaying all the cities in Netherland. UI is implmented in Material UI core component.
-Pagination is implementated in this application.
+This application display all the cities in Netherland.
 
 
 ## Run Test cases
